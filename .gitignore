@@ -34,7 +34,6 @@ Thumbs.db
 # Documentation files (keep only README.md in the repo)
 *.md
 !README.md
-*.pdf
 
 # Implementation and planning artifacts
 *.resolved
