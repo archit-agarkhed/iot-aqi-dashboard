@@ -6,6 +6,8 @@ Real-time air quality monitoring dashboard supporting 9 independent sensor units
 ![ESP32](https://img.shields.io/badge/ESP32-compatible-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-v18+-green)
 
+🔗 **[View on GitHub](https://github.com/archit-agarkhed/iot-aqi-dashboard)**
+
 ## System Overview
 
 A scalable IoT solution for monitoring air quality across multiple locations. Each ESP32 unit measures 9 air quality parameters and sends data to a central server every 5 seconds.
@@ -40,8 +42,8 @@ ESP32 Units (1-9) → WiFi → Backend (Node.js + SQLite) → Frontend (React + 
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/multi-unit-aqi-system.git
-cd multi-unit-aqi-system
+git clone https://github.com/archit-agarkhed/iot-aqi-dashboard.git
+cd iot-aqi-dashboard
 ```
 
 ### 2. Install Dependencies
@@ -78,7 +80,7 @@ Expected output: `Local: http://localhost:5173/`
 ## Project Structure
 
 ```
-multi-unit-aqi-system/
+iot-aqi-dashboard/
 ├── backend/
 │   ├── database.js          # SQLite operations
 │   ├── server.js            # Express API server
